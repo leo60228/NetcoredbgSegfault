@@ -1,0 +1,15 @@
+{
+    "configurations": {
+        "launch": {
+            "adapter": "netcoredbg",
+            "default": true,
+            "configuration": {
+                "request": "launch",
+                "program": "${workspaceRoot}/bin/Debug/netcoreapp3.1/NetcoredbgSegfault.dll",
+                "args": [],
+                "stopAtEntry": true,
+                "cwd": "${workspaceRoot}"
+            }
+        }
+    }
+}
